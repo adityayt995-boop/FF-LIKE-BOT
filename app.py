@@ -16,7 +16,7 @@ app = Flask(__name__)
 
 # ✅ Valid API keys
 VALID_API_KEYS = {
-    "20"  # don't change warna api or bot dono nhi chalega 
+    "Anurag"  # don't change warna api or bot dono nhi chalega 
 }
 
 # 🔢 Like limit tracking
@@ -145,7 +145,7 @@ def make_request(encrypt, region, token):
             "Expect": "100-continue",
             "X-Unity-Version": "2018.4.11f1",
             "X-GA": "v1 1",
-            "ReleaseVersion": "OB54"
+            "ReleaseVersion": "OB55"
         }
         response = requests.post(url, data=edata, headers=headers, verify=False)
         binary = response.content
